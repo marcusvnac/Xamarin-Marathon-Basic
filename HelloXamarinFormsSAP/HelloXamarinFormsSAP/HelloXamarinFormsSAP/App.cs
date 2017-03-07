@@ -18,8 +18,13 @@ namespace HelloXamarinFormsSAP
 					Children = {
 						new Label {
 							HorizontalTextAlignment = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
+                            #if __IOS__
+                            Text = "Welcome to iOS Xamarin Forms!"
+                            #elif __ANDROID__
+                            Text = "Welcome to Android Xamarin Forms!"
+                            #elif WINDOWS_UWP
+                            Text = "Welcome to Windows UWP Xamarin Forms!"
+                            #endif						}
 					}
 				}
 			};
