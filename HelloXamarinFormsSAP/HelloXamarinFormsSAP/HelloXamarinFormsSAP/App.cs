@@ -24,7 +24,8 @@ namespace HelloXamarinFormsSAP
                             Text = "Welcome to Android Xamarin Forms!"
                             #elif WINDOWS_UWP
                             Text = "Welcome to Windows UWP Xamarin Forms!"
-                            #endif						}
+                            #endif
+						}
 					}
 				}
 			};
