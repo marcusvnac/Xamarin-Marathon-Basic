@@ -63,7 +63,7 @@ namespace Cats.ViewModels
                 }
                 finally
                 {
-                    IsBusy = true;
+                    IsBusy = false;
                 }
                 if (Error != null)
                 {
