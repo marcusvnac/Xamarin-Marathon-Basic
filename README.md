@@ -1,3 +1,3 @@
-# Xamarin Marathon, Level Basic
+# Xamarin Marathon, Basic Level
 
-Mobile Apps created during the Xamarin Marathon South America, level basic
+Mobile Apps created during the Xamarin Marathon South America, basic level 
